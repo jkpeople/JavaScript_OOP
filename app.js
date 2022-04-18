@@ -14,11 +14,8 @@ class Person{
     info(){
         console.log(`${this.name} has ${this.numPets} pet(s), lives in ${this.residence} and enjoys ${this.hobbies}`)
     }
-    //original greet
-    //greet(){
-      //  console.log("Hello fellow bean! Together we shall rice!")
-    //}
-    greet(name = "mysterious one"){
+  
+    greet(name = "human bean"){
         console.log(`Hello ${name}! It's nice to see you again!`)
     }
 }
@@ -29,8 +26,8 @@ class Coder extends Person{
 
        this.occupation = "Full Stack Web Developer";
     }
-    greet(name = "darkness"){
-        console.log(`Hello ${name}, my old friend.`);
+    greet(name = "Jerry"){
+        console.log(`Hello ${name}`);
     }
 }
 
